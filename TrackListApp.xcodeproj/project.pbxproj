@@ -60,17 +60,57 @@
 		424FA5142C8B83E90006BF6C /* TrackListApp */ = {
 			isa = PBXGroup;
 			children = (
-				424FA5152C8B83E90006BF6C /* AppDelegate.swift */,
-				424FA5172C8B83E90006BF6C /* SceneDelegate.swift */,
-				424FA5292C9875300006BF6C /* TrackListViewController.swift */,
-				426869EB2CB8131700AAAB8F /* TrackDetailsViewController.swift */,
-				424FA52B2C9879080006BF6C /* Track.swift */,
-				424FA51B2C8B83E90006BF6C /* Main.storyboard */,
-				424FA51E2C8B83EA0006BF6C /* Assets.xcassets */,
-				424FA5202C8B83EA0006BF6C /* LaunchScreen.storyboard */,
-				424FA5232C8B83EA0006BF6C /* Info.plist */,
+				426869ED2CB90AB000AAAB8F /* ViewControllers */,
+				426869EE2CB90AE400AAAB8F /* Models */,
+				426869EF2CB90B2400AAAB8F /* Storyboards */,
+				426869F12CB90B7400AAAB8F /* SupportingFiles */,
+				426869F02CB90B5500AAAB8F /* Resources */,
 			);
 			path = TrackListApp;
+			sourceTree = "<group>";
+		};
+		426869ED2CB90AB000AAAB8F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				424FA5292C9875300006BF6C /* TrackListViewController.swift */,
+				426869EB2CB8131700AAAB8F /* TrackDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		426869EE2CB90AE400AAAB8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				424FA52B2C9879080006BF6C /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		426869EF2CB90B2400AAAB8F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				424FA51B2C8B83E90006BF6C /* Main.storyboard */,
+				424FA5202C8B83EA0006BF6C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		426869F02CB90B5500AAAB8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				424FA51E2C8B83EA0006BF6C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		426869F12CB90B7400AAAB8F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				424FA5152C8B83E90006BF6C /* AppDelegate.swift */,
+				424FA5172C8B83E90006BF6C /* SceneDelegate.swift */,
+				424FA5232C8B83EA0006BF6C /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +342,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q4C935HFS8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrackListApp/Info.plist;
+				INFOPLIST_FILE = TrackListApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +375,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q4C935HFS8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrackListApp/Info.plist;
+				INFOPLIST_FILE = TrackListApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
